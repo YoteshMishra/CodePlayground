@@ -8,7 +8,7 @@ process.env["NODE_ENV"] = "production";
 module.exports = merge(common, {
   mode: "production",
   output: {
-    path: path.resolve(__dirname, "dist"), // This is where build files will go
+    path: path.resolve(__dirname, "build"), // This is where build files will go
     filename: "bundle.js",
     clean: true, // Optional: cleans the /dist folder before build
   },
