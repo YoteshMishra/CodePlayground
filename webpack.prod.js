@@ -10,7 +10,7 @@ module.exports = merge(common, {
   output: {
     path: path.resolve(__dirname, "build"), // This is where build files will go
     filename: "bundle.js",
-    clean: true, // Optional: cleans the /dist folder before build
+    clean: true, // Optional: cleans the /build folder before build
   },
   optimization: {
     minimize: true,
